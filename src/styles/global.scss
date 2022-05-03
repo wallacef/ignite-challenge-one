@@ -1,4 +1,6 @@
 :root {
+  --white: #fff;
+  --black: #121214;
   --blue: #273FAD;
   --green: #3FAD27;
   --red: 	#ad273f;
@@ -17,7 +19,7 @@
 
 body {
   font: 16px "Poppins", Arial, sans-serif;
-  color: #121214;
+  color: var(--black);
 }
 
 input, textarea {

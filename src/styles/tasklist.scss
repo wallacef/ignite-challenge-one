@@ -23,7 +23,7 @@ section.task-list {
       gap: 0.25rem;
       align-items: center;
 
-      background: #fff;
+      background: var(--white);
       font-size: 16px;
       
       input {
@@ -46,7 +46,7 @@ section.task-list {
         border-radius: 8px;
         border: 0;
         background: var(--green);
-        color: #fff;
+        color: var(--white);
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -133,7 +133,7 @@ section.task-list {
                 top: 3px;
                 width: 3px;
                 height: 6px;
-                border: solid white;
+                border: solid var(--white);
                 border-width: 0 2px 2px 0;
                 transform: rotate(45deg);
               }
